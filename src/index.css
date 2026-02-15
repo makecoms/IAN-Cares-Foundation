@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  
+  /* New Brand Colors */
+  --color-primary-yellow: #FDB913;
+  --color-heading-teal: #1A6B96;
+  
+  /* Baby Blue Palette (Base) */
+  --color-baby-blue-50: #e8f6fd;
+  --color-baby-blue-600: #1285ba;
+  --color-baby-blue-900: #05212e;
+
+  background-color: var(--color-baby-blue-50);
+  color: var(--color-baby-blue-900);
+}
+
+html {
+  scroll-behavior: smooth;
+}
